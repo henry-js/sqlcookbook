@@ -19,7 +19,7 @@ CREATE TABLE sqlcookbook.emp (
   job VARCHAR NOT NULL,
   mgr INT,
   hiredate DATE,
-  sal DOUBLE PRECISION,
+  sal INT,
   comm INT,
   deptno int NOT NULL REFERENCES sqlcookbook.dept(deptno) ON DELETE SET NULL
 );
